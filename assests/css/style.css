@@ -22,8 +22,8 @@
             position: relative;
         }
         a {
-            color: #ffc107;
-            text-decoration: none;
+            color: #ffc107!important;
+            text-decoration: none!important;
         }
         .rounded-circle {
             width: 100%;
