@@ -1,0 +1,113 @@
+ /* Dark mode styles */
+        body.dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+        .dark-mode .navbar, .dark-mode footer {
+            background-color: #1f1f1f;
+        }
+        .dark-mode .card {
+            background-color: #2a2a2a;
+            color: white;
+        }
+        .dark-mode .bg-light {
+            background-color: #2a2a2a !important;
+        }
+        .dark-mode .bg-dark {
+            background-color: #121212 !important;
+        }
+/* Custom styles for better visual appeal */
+        body {
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+
+        .rounded-circle {
+            width: 100%;
+            max-width: 200px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        /* Left sidebar navigation */
+        #sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 200px;
+            background-color: #343a40;
+            padding-top: 20px;
+        }
+
+        #sidebar a {
+            padding: 10px;
+            text-align: center;
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        #sidebar a.active {
+            background-color: #007bff;
+        }
+
+        #sidebar a:hover {
+            background-color: #575d63;
+        }
+        .text {
+    height: 7rem;
+}
+
+        /* Main content area */
+        #content {
+            
+            padding: 0px;
+        }
+        .card-body {
+            height: 15rem;
+        } 
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            #sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            #sidebar a {
+                float: left;
+                text-align: left;
+                width: 100%;
+            }
+
+            #content {
+                margin-left: 0;
+            }
+        }
+        h2.ani {
+  color: black; 
+  font-family: "Arial";
+  font-size: 3em;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: animtext 20s steps(80, end) infinite; /* Infinite loop */
+  transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+@keyframes animtext { 
+  0% {
+    width: 0;
+    transition: all 3s ease-in-out;
+  } 
+  100% {
+    width: 100%;
+    transition: all 3s ease-in-out;
+  }
+}
