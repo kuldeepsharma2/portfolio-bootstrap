@@ -21,7 +21,10 @@
             font-family: Arial, sans-serif;
             position: relative;
         }
-
+        a {
+            color: #ffc107;
+            text-decoration: none;
+        }
         .rounded-circle {
             width: 100%;
             max-width: 200px;
