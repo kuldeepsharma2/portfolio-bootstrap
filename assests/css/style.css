@@ -87,7 +87,9 @@
                 text-align: left;
                 width: 100%;
             }
-
+.dflexres{
+    display: block!important;
+}
             #content {
                 margin-left: 0;
             }
@@ -113,4 +115,7 @@
     width: 100%;
     transition: all 3s ease-in-out;
   }
+}
+.dflexres{
+    display: flex;
 }
